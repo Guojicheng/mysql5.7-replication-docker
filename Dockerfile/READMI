@@ -1,0 +1,4 @@
+参数渲染说明：
+
+一、 entrypoint 触发update-config.sh 脚本， copy 配置文件到/etc/mysql/conf.d/下， 并执行对应角色的sed命令变更参数。  
+（ 注：如需对镜像变更 ，可利用此机制，例如加binlog 超市时间等）
