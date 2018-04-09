@@ -4,10 +4,9 @@ server-id = 10
 gtid-mode = on
 enforce-gtid-consistency = true
 sync-master-info = 1
-binlog-checksum = CRC32
 
 ########log settings########
-log-bin = mysql-bin
+#log-bin = mysql-bin
 relay-log = relay-log
 binlog_format = MIXED
 binlog-checksum = CRC32
@@ -22,7 +21,6 @@ master-verify-checksum = 1
 slave-sql-verify-checksum = 1
 slave-parallel-type=LOGICAL_CLOCK
 slave-parallel-workers=16
-master_info_repository=TABLE
 relay_log_info_repository=TABLE
 relay_log_recovery=ON
 expire_logs_days = 1

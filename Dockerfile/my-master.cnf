@@ -8,7 +8,6 @@ gtid-mode = on
 enforce-gtid-consistency = true
 master-info-repository = TABLE
 sync-master-info = 1
-
 ########log settings########  
 binlog-checksum = CRC32
 binlog-rows-query-log_events = 1

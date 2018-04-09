@@ -6,7 +6,7 @@ enforce-gtid-consistency = true
 sync-master-info = 1
 
 ########log settings########
-log-bin = mysql-bin
+#log-bin = mysql-bin
 relay-log = relay-log
 binlog_format = MIXED
 binlog-checksum = CRC32
