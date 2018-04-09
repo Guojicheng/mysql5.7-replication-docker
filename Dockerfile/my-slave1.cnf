@@ -8,11 +8,11 @@ sync-master-info = 1
 ########log settings########
 #log-bin = mysql-bin
 relay-log = relay-log
-binlog_format = MIXED
-binlog-checksum = CRC32
-binlog-rows-query-log_events = 1
-expire_logs_days = {{expirelogsdays}}
-log_slave_updates = on
+#binlog_format = MIXED
+#binlog-checksum = CRC32
+#binlog-rows-query-log_events = 1
+#expire_logs_days = {{expirelogsdays}}
+#log_slave_updates = on
 relay-log-info-repository = TABLE
 
 ########replication settings########
